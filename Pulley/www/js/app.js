@@ -48,6 +48,28 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+
+
+        .state('tab.favorites', {
+      url: '/favorites',
+      views: {
+        'tab-favorites': {
+          templateUrl: 'templates/tab-favorites.html',
+          controller: 'FavoritesCtrl'
+        }
+      }
+    })
+
+    .state('tab.coupons', {
+      url: '/coupons',
+      views: {
+        'tab-coupons': {
+          templateUrl: 'templates/tab-coupons.html',
+          controller: 'CouponsCtrl'
+        }
+      }
+    })
+
     .state('tab.friends', {
       url: '/friends',
       views: {
