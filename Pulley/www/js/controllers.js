@@ -15,6 +15,11 @@ angular.module('starter.controllers', [])
   $scope.coupons = Coupons.all();
 })
 
+.controller('CouponsDetailCtrl', function($scope, $stateParams, Coupons) {
+  $scope.coupon = Coupons.get($stateParams.couponsId);
+})
+
+
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
   $scope.friend = Friends.get($stateParams.friendId);
 })

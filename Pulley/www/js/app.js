@@ -69,6 +69,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
+        .state('tab.coupon-detail', {
+      url: '/coupon/:couponId',
+      views: {
+        'tab-coupons': {
+          templateUrl: 'templates/coupon-detail.html',
+          controller: 'CouponDetailCtrl'
+        }
+      }
+    })
 
     .state('tab.friends', {
       url: '/friends',
