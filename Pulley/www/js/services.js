@@ -11,7 +11,16 @@ angular.module('starter.services', [])
     { id: 0, name: 'Scruff McGruff' },
     { id: 1, name: 'G.I. Joe' },
     { id: 2, name: 'Miss Frizzle' },
-    { id: 3, name: 'Ash Ketchum' }
+    { id: 3, name: 'Scruff McGruff' },
+    { id: 4, name: 'G.I. Joe' },
+    { id: 5, name: 'Miss Frizzle' },
+    { id: 6, name: 'Scruff McGruff' },
+    { id: 7, name: 'G.I. Joe' },
+    { id: 8, name: 'Miss Frizzle' },
+    { id: 9, name: 'Scruff McGruff' },
+    { id: 10, name: 'G.I. Joe' },
+    { id: 11, name: 'Miss Frizzle' },
+    { id: 12, name: 'Ash Ketchum' }
   ];
 
   return {
