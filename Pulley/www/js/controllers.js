@@ -7,16 +7,15 @@ angular.module('starter.controllers', [])
   $scope.friends = Friends.all();
 })
 
-.controller('FavoritesCtrl', function($scope, Favorites) {
-  $scope.favorites = Favorites.all();
+.controller('FavoritesCtrl', function($scope) {
 })
 
 .controller('CouponsCtrl', function($scope, Coupons) {
   $scope.coupons = Coupons.all();
 })
 
-.controller('CouponsDetailCtrl', function($scope, $stateParams, Coupons) {
-  $scope.coupon = Coupons.get($stateParams.couponsId);
+.controller('CouponDetailCtrl', function($scope, $stateParams, Coupons) {
+  $scope.coupon = Coupons.get($stateParams.couponId);
 })
 
 
