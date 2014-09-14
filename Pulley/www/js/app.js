@@ -21,7 +21,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     var div = document.getElementById("map_canvas");
     var map = plugin.google.maps.Map.getMap(div);
   });
-})
+}) 
 
 .config(function($stateProvider, $urlRouterProvider) {
 
