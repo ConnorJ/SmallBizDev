@@ -18,6 +18,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+    var div = document.getElementById("map_canvas");
+    var map = plugin.google.maps.Map.getMap(div);
   });
 })
 
@@ -112,4 +114,3 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $urlRouterProvider.otherwise('/tab/dash');
 
 });
-
